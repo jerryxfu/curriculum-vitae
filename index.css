@@ -1,0 +1,67 @@
+* {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+#cv {
+    width: 100%;
+    max-width: 8.5in; /* Standard letter size */
+    margin: 0.50in; /* Margins for printing */
+    text-align: left;
+}
+
+/* fav color: #b8e2f2 */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: white;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+h3 {
+    color: #75c6e6; /* 68% HS(L) fav */
+    font-weight: 600;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    font-weight: 400;
+    margin-bottom: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+a:visited {
+    color: #0066cc;
+}
+
+@media print {
+    body {
+        font-size: 12pt;
+    }
+
+    h1, h2, h3 {
+        page-break-after: avoid;
+    }
+}
