@@ -1,5 +1,6 @@
 * {
-    font-family: "Nunito Sans", sans-serif;
+    /*font-family: "Nunito Sans", sans-serif;*/
+    font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
 }
@@ -25,30 +26,32 @@ body {
 }
 
 h1 {
-    font-size: 2rem;
-    font-weight: 600;
+    font-size: 25pt;
+    font-weight: 500;
     margin: 0 0 0.5em 0;
 }
 
 h2 {
-    font-weight: 600;
+    font-weight: 500;
     margin: 0 0 0.5em 0;
 }
 
 h3 {
     color: #75c6e6; /* 68% HS(L) fav */
-    font-weight: 600;
+    font-weight: 500;
     margin: 0.75rem 0 0.5em 0;
 }
 
 h4 {
-    font-weight: 600;
+    font-weight: 500;
     margin: 0.75rem 0 0 0;
 }
 
-p {
+p, ul {
     margin: 0;
+    font-size: 12pt;
     font-weight: 400;
+    line-height: 140%;
 }
 
 ul {
@@ -56,7 +59,7 @@ ul {
 }
 
 .small-gray-text {
-    font-size: 0.9em;
+    font-size: 11pt;
     color: gray;
     margin-left: 0.5rem;
 }
@@ -71,10 +74,6 @@ a:visited {
 }
 
 @media print {
-    body {
-        font-size: 11pt;
-    }
-
     h1, h2, h3 {
         page-break-after: avoid;
     }
