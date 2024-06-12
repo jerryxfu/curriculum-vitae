@@ -7,8 +7,8 @@
 }
 
 #cv {
-    width: 100%;
-    max-width: 8.5in; /* standard letter size */
+    /*width: 100%;*/
+    width: 8.5in; /* standard letter size */
     /*padding: 0.1in; !* margins for printing *!*/
     text-align: left;
 }
@@ -31,6 +31,7 @@ body {
 
 .flex-item {
     flex-grow: 1;
+    justify-content: space-between;
 }
 
 h1 {
@@ -49,13 +50,13 @@ h3 {
     color: #91b2bf; /* 75% HS(V) #b8e2f2 */
     font-weight: 500;
     font-size: 1.40rem;
-    margin: 0.65rem 0 0 0;
+    margin: 0.55rem 0 0 0;
 }
 
 h4 {
     font-size: 1.15rem;
     font-weight: 500;
-    margin: 0.25rem 0 0.35rem 0;
+    margin: 0.20rem 0 0.35rem 0;
 }
 
 p, ul {
@@ -81,7 +82,7 @@ span.light {
 }
 
 a {
-    text-decoration: none;
+    /*text-decoration: none;*/
     color: black;
 }
 
