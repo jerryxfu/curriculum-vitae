@@ -33,21 +33,21 @@ body {
 }
 
 h1 {
-    font-size: 2.25rem;
+    font-size: 1.95rem;
     font-weight: 500;
     margin: 0 0 0.15rem 0;
 }
 
 h2 {
-    font-size: 1.4rem;
-    font-weight: 500;
+    font-size: 1.25rem;
+    font-weight: 400;
     margin: 0 0 0.10rem 0;
 }
 
 h3 {
     color: #a6bed9;
     font-weight: 500;
-    font-size: 1.40rem;
+    font-size: 1.35rem;
     margin: 0.35rem 0 0 0;
 }
 
