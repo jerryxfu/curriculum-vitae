@@ -48,13 +48,13 @@ h3 {
     color: #a6bed9;
     font-weight: 500;
     font-size: 1.35rem;
-    margin: 0.35rem 0 0 0;
+    margin: 0.20rem 0 0 0;
 }
 
 h4 {
     font-size: 1.10rem;
     font-weight: 500;
-    margin: 0.10rem 0 0.15rem 0;
+    margin: 0.10rem 0;
 }
 
 h4.small {
