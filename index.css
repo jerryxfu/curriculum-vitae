@@ -39,7 +39,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     font-weight: 400;
     margin: 0 0 0.10rem 0;
 }
@@ -48,7 +48,7 @@ h3 {
     color: #a6bed9;
     font-weight: 500;
     font-size: 1.35rem;
-    margin: 0.20rem 0 0 0;
+    margin: 0.15rem 0 0 0;
 }
 
 h4 {
@@ -60,7 +60,7 @@ h4 {
 h4.small {
     font-size: 1.05rem;
     font-weight: 500;
-    margin: 0.10rem 0 0.10rem 0;
+    margin: 0.05rem 0 0.10rem 0;
 }
 
 p.big {
@@ -90,7 +90,7 @@ span.special {
 }
 
 span.light {
-    font-weight: 350;
+    font-weight: 370;
     color: #707070;
 }
 
@@ -109,6 +109,6 @@ a:visited {
     }
 
     body {
-        zoom: 97%; /* adjust zoom for better print fit */
+        zoom: 94%; /* adjust zoom for better print fit */
     }
 }
