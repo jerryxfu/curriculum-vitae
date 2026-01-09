@@ -14,6 +14,18 @@
 
 <body>
 <main id="cv">
+    <div class="media-control" style="margin-bottom: 2pt;">
+        <button onclick="window.location.href='/Curriculum vitae - Jerry.pdf'">
+            Direct download PDF
+        </button>
+        <button onclick="window.location.href='/Curriculum vitae - Jerry.docx'">
+            Direct download Word
+        </button>
+        <button id="print-button">
+            Print/Print to PDF
+        </button>
+    </div>
+
     <div class="flex-container" style="flex-direction: row; align-items: center; justify-content: space-between;">
         <div class="flex-item">
             <h1>Jerry Fu</h1>
@@ -41,7 +53,7 @@
     <h3><span class="year">2022–present</span> FIRST Robotics Competition – Mentor and former Student, Team 3990</h3>
     <ul>
         <li>
-            Lectured deep learning and computer vision to junior team members.
+            Lectured computer vision and deep learning to junior team members.
         </li>
         <li>
             Pioneered object tracking and autonomous systems on the robot.
@@ -54,7 +66,7 @@
     <h3><span class="year">2023, 2024</span> DODO Wheels – Sole Software Developer</h3>
     <ul>
         <li>
-            2024 summer | Contracted to develop Doublestar Tire's Canadian website (<a href="https://doublestartyre.ca/" target="_blank">https://doublestartyre.ca</a>).
+            2024 summer | Developed Doublestar Tire's Canadian website (<a href="https://doublestartyre.ca/" target="_blank">https://doublestartyre.ca</a>).
         </li>
         <li>
             2023 summer | Managed, updated, and populated internal inventory through CPanel as needed.
@@ -90,7 +102,7 @@
     <h2>Volunteer Experience</h2>
     <ul>
         <li>
-            Built a real-time score-tracking application for our in-house off-season robotics competitions.
+            Developed a real-time score-tracking application for our in-house off-season robotics competitions.
         </li>
         <li>
             Volunteered at our in-house FIRST event and presented our robotics program at our open house.
@@ -149,5 +161,10 @@
         </div>
     </div>
 </main>
+<script>
+    document.getElementById('print-button').addEventListener('click', function () {
+        window.print();
+    });
+</script>
 </body>
 </html>

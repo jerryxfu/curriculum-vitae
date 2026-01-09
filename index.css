@@ -93,6 +93,10 @@ a:visited {
 }
 
 @media print {
+    .media-control {
+        display: none;
+    }
+
     h1, h2, h3 h4 {
         page-break-after: avoid;
     }
@@ -105,7 +109,28 @@ a:visited {
         page-break-inside: avoid;
     }
 
-    /*body {*/
-    /*    zoom: 94%; !* adjust zoom for better print fit *!*/
-    /*}*/
+    .flex-container {
+        display: table !important;
+        width: 100%;
+        page-break-inside: avoid !important;
+        break-inside: avoid !important;
+    }
+
+    .flex-item {
+        display: table-cell !important;
+        vertical-align: top;
+        page-break-inside: avoid !important;
+        break-inside: avoid !important;
+    }
+
+    .flex-item h2 {
+        page-break-after: avoid !important;
+        break-after: avoid !important;
+    }
+
+    .flex-item ul {
+        page-break-before: avoid !important;
+        break-before: avoid !important;
+        margin-top: 0;
+    }
 }
