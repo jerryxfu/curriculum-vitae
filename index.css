@@ -9,6 +9,7 @@
 #cv {
     width: 8.5in; /* standard letter size */
     text-align: left;
+    padding-bottom: 8rem; /* looks better on web */
 }
 
 body {
@@ -97,7 +98,11 @@ a:visited {
         display: none;
     }
 
-    h1, h2, h3 h4 {
+    #cv {
+        padding: 0;
+    }
+
+    h1, h2, h3, h4 {
         page-break-after: avoid;
     }
 
