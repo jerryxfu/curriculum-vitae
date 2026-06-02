@@ -21,6 +21,14 @@ body {
     padding: 0;
     box-sizing: border-box;
     background: white;
+    color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #1a1a1a;
+        color: #e0e0e0;
+    }
 }
 
 .flex-container {
@@ -44,6 +52,12 @@ h2 {
     font-weight: 450;
     font-size: 13pt;
     margin: 6pt 0 1pt 0;
+}
+
+@media (prefers-color-scheme: dark) {
+    h2 {
+        color: #7b9cc9;
+    }
 }
 
 h3 {
@@ -74,14 +88,63 @@ ul {
     margin-bottom: 2pt;
 }
 
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+@media (prefers-color-scheme: dark) {
+    hr {
+        border-top-color: #444;
+    }
+}
+
+button {
+    background-color: #f0f0f0;
+    color: black;
+    border-color: #ccc;
+    /*padding: 0.5rem 1rem;*/
+    /*border-radius: 4px;*/
+    cursor: pointer;
+    font-size: 10pt;
+}
+
+/*button:hover {*/
+/*    background-color: #e0e0e0;*/
+/*}*/
+
+@media (prefers-color-scheme: dark) {
+    button {
+        background-color: #333;
+        color: #e0e0e0;
+        border-color: #555;
+    }
+
+    /*button:hover {*/
+    /*    background-color: #444;*/
+    /*}*/
+}
+
 span.special {
     color: #003366;
     font-weight: 400;
 }
 
+@media (prefers-color-scheme: dark) {
+    span.special {
+        color: #a6bed9;
+    }
+}
+
 span.year {
     font-weight: 370;
     color: #606060;
+}
+
+@media (prefers-color-scheme: dark) {
+    span.year {
+        color: #a0a0a0;
+    }
 }
 
 a {
@@ -91,6 +154,16 @@ a {
 
 a:visited {
     color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+    a {
+        color: #a6bed9;
+    }
+
+    a:visited {
+        color: #8da8c5;
+    }
 }
 
 @media print {
