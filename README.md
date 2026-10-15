@@ -7,7 +7,7 @@ EXPORT PDF USING CHROME FOR MAXIMUM COMPATIBILITY.
 Latest updated date in footer:
 
 ```html
-<p class="footer">Jerry Fu&#8239;·&#8239;2026.9</p>
+<p class="footer">Jerry Fu&#8239;·&#8239;[year.month]</p>
 ```
 
 - En Dash (–): Used for number ranges
